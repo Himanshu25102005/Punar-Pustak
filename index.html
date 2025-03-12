@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <head>
+    <nav>
+      <div class="navbar">
+        <button class="mobile-menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul class="nav-left">
+          <li>
+            <a href="#">
+              <div class="nav-logo-outer">
+                <div class="nav-logo">
+                  <img src="Assets/logo.webp" alt="logo">
+                </div>
+                <div class="nav-logo-text">
+                  Punah-पुस्तक
+                </div>
+              </div>
+            </a>
+          </li>
+          <li id="nav-menu">
+            <a href="#">About</a>
+          </li>
+          <li id="nav-menu">
+            <a href="#">Browse</a>
+          </li>
+          <li id="nav-menu">
+            <a href="#">Categories</a>
+          </li>
+        </ul>
+
+        <div class="nav-right">
+          <ul>
+            <li id="search">
+              <input type="search" name="Books" placeholder="Search for books...">
+              <div class="search-results">
+                <!-- Example result items -->
+                <div class="search-result-item">
+                  <img src="../Punah_Pustak/Assets/book1.jpg" alt="Book cover" class="search-result-image">
+                  <div class="search-result-info">
+                    <div class="search-result-title">The Silent Patient</div>
+                    <div class="search-result-author">By Alex Michaelides</div>
+                    <div class="search-result-price">
+                      <span class="search-current-price">₹299</span>
+                      <span class="search-original-price">₹499</span>
+                      <span class="search-discount">40% off</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add more items as needed -->
+
+                <!-- No results message (initially hidden) -->
+                <div class="no-results" style="display: none;">
+                  No matching books found
+                </div>
+              </div>
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </li>
+            <li>
+              <button>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </head>
+
+  <main>
+    <div class="hero">
+      <div class="outer-hero">
+        <div class="inner-hero">
+          <div class="hero-text1">
+            <p>
+              Give Books a Second Life, One Read at a Time!
+            </p>
+          </div>
+          <div class="hero-text2">
+            <p>
+              Buy & sell second-hand books affordably with doorstep delivery. Declutter, discover, and read sustainably!
+            </p>
+          </div>
+          <div class="hero-buttons">
+            <div class="buy-div" id="hero-button" style="background-color: #e7e7ff;">
+              <a href="#">
+                <img src="../Punah_Pustak/Assets/buy.svg" alt="">
+              </a>
+
+              <button class="buy">Buy Used Books</button>
+            </div>
+            <div class="or">
+              <div class="or-inner">
+                Or
+              </div>
+            </div>
+            <div class="sell-div" id="hero-button" style="background-color: #fff2c7;">
+              <a href="#">
+                <img src="../Punah_Pustak/Assets/sell.svg" alt="">
+              </a>
+              <button class="sell">Sell Used Books</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="trending-reads">
+      <h2 class="section-title">Trending Reads</h2>
+      <div class="book-slider">
+        <div class="book-card">
+          <img src="../Punah_Pustak/Assets/book1.jpg" alt="Book 1" class="book-cover">
+          <div class="book-details">
+            <h3>The Silent Patient</h3>
+            <div class="price-details">
+              <span class="discounted-price">₹299</span>
+              <span class="original-price">₹499</span>
+              <span class="discount-tag">40% off</span>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="../Punah_Pustak/Assets/book2.jpg" alt="Book 2" class="book-cover">
+          <div class="book-details">
+            <h3>Atomic Habits</h3>
+            <div class="price-details">
+              <span class="discounted-price">₹399</span>
+              <span class="original-price">₹599</span>
+              <span class="discount-tag">33% off</span>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="../Punah_Pustak/Assets/book3.jpg" alt="Book 3" class="book-cover">
+          <div class="book-details">
+            <h3>The Psychology of Money</h3>
+            <div class="price-details">
+              <span class="discounted-price">₹249</span>
+              <span class="original-price">₹399</span>
+              <span class="discount-tag">38% off</span>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="../Punah_Pustak/Assets/book4.jpg" alt="Book 4" class="book-cover">
+          <div class="book-details">
+            <h3>Rich Dad Poor Dad</h3>
+            <div class="price-details">
+              <span class="discounted-price">₹199</span>
+              <span class="original-price">₹349</span>
+              <span class="discount-tag">43% off</span>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="../Punah_Pustak/Assets/book5.jpg" alt="Book 4" class="book-cover">
+          <div class="book-details">
+            <h3>The Subtle Art of NGAF</h3>
+            <div class="price-details">
+              <span class="discounted-price">₹299</span>
+              <span class="original-price">449</span>
+              <span class="discount-tag">43% off</span>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="../Punah_Pustak/Assets/book6.webp" alt="Book 4" class="book-cover">
+          <div class="book-details">
+            <h3>Everything is Fucked</h3>
+            <div class="price-details">
+              <span class="discounted-price">₹199</span>
+              <span class="original-price">₹249</span>
+              <span class="discount-tag">43% off</span>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="../Punah_Pustak/Assets/book7.jpg" alt="Book 4" class="book-cover">
+          <div class="book-details">
+            <h3>2 States</h3>
+            <div class="price-details">
+              <span class="discounted-price">₹175</span>
+              <span class="original-price">₹350</span>
+              <span class="discount-tag">50% off</span>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <img src="../Punah_Pustak/Assets/book8.jpg" alt="Book 4" class="book-cover">
+          <div class="book-details">
+            <h3>Alchemist</h3>
+            <div class="price-details">
+              <span class="discounted-price">₹199</span>
+              <span class="original-price">₹249</span>
+              <span class="discount-tag">43% off</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="benefits">
+      <h2 class="section-title">Why Choose Punah-पुस्तक</h2>
+      <div class="benefits-container">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <i class="fas fa-wallet"></i>
+          </div>
+          <h3>Save Money</h3>
+          <p>Get your favorite books at affordable prices. Our second-hand collection helps you build your library
+            without breaking the bank.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <h3>Eco-Friendly</h3>
+          <p>Support sustainable reading by giving books a second life. Together, we can reduce waste and protect our
+            environment.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <i class="fas fa-truck-fast"></i>
+          </div>
+          <h3>Convenience</h3>
+          <p>Enjoy hassle-free doorstep delivery. Browse, order, and receive your books without leaving your home.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <h2 class="section-title">What Our Community Says</h2>
+      <div class="testimonials-container">
+        <div class="testimonial-card">
+          <div class="testimonial-avatar">
+            <img src="../Punah_Pustak/Assets/user1.jpg" alt="User Avatar">
+          </div>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"Found rare books at amazing prices! The delivery was quick, and the books were in great condition."</p>
+          <h4>Nishika Chawla</h4>
+          <span>Book Buyer</span>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-avatar">
+            <img src="../Punah_Pustak/Assets/user2.jpg" alt="User Avatar">
+          </div>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>"Selling my old books was super easy. Great platform for book lovers to connect and share their
+            collections."</p>
+          <h4>Saish Baviskar</h4>
+          <span>Book Seller</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="cta-content">
+        <h2>Ready to Begin Your Book Journey?</h2>
+        <p>Join our community of book lovers today!</p>
+        <div class="cta-buttons">
+          <button class="cta-button primary">Start Browsing</button>
+          <button class="cta-button secondary">Sell Your Books</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <h2 class="section-title">Our Mission</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="../Punah_Pustak/Assets/about.jpg" alt="About Us">
+        </div>
+        <div class="about-text">
+          <p>At Punah-पुस्तक, we believe that every book deserves multiple readers and every reader deserves affordable
+            access to knowledge. Our platform connects book lovers, creating a sustainable reading ecosystem that
+            benefits both readers and the environment.</p>
+          <p>Started by a group of passionate readers, we're on a mission to make reading accessible to everyone while
+            promoting sustainable consumption of books.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Browse Books</a></li>
+            <li><a href="#">Sell Books</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Return Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Connect With Us</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Newsletter</h3>
+          <p>Stay updated with our latest collections and offers!</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Punah-पुस्तक. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
