@@ -11,7 +11,7 @@ Punar-पुस्तक is a user-friendly online marketplace dedicated to conn
 
 ## ✨ Features
 
-- **📖 Extensive Book Catalog**: Browse through a diverse collection of pre-owned books across various genres
+- **📖 Extensive Book Catalog**: Browse through a diverse collection of pre-owned books across various genres.
 - **🔍 Advanced Search**: Find books by title, author, genre, or condition
 - **💰 Competitive Pricing**: Get quality books at fraction of their original cost
 - **💸 Sell Your Books**: List your used books easily with our intuitive selling interface
