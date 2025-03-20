@@ -15,7 +15,7 @@ Punar-पुस्तक is a user-friendly online marketplace dedicated to conn
 - **🔍 Advanced Search**: Find books by title, author, genre, or condition.
 - **💰 Competitive Pricing**: Get quality books at fraction of their original cost.
 - **💸 Sell Your Books**: List your used books easily with our intuitive selling interface.
-- **👤 User Profiles**: Create personalized profiles to track your purchases and sales
+- **👤 User Profiles**: Create personalized profiles to track your purchases and sales.
 - **💬 Messaging System**: Communicate directly with buyers and sellers
 - **⭐ Ratings & Reviews**: Make informed decisions based on community feedback
 - **🛒 Seamless Checkout**: Enjoy a smooth and secure purchasing experience
