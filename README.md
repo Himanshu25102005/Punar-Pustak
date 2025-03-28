@@ -5,7 +5,7 @@
 
 ## 🌟 Overview
 
-Punar-पुस्तक is a user-friendly online marketplace dedicated to connecting book lovers who want to buy and sell second-hand books. Our platform promotes sustainable reading habits by giving books a second life while making literature more accessible and affordable for everyone.
+Punar-पुस्तक is a user-friendly online marketplace dedicated to connecting book lovers who want to buy and sell second-hand books. Our platform promotes sustainable reading habits by giving books a second life while making literature more accessible and affordable for everyone!
 
 ![Screenshot](Assets/ss.png)
 
