@@ -1,4 +1,4 @@
-agit /* let input = document.querySelector("input");
+/*  let input = document.querySelector("input");
 
 input.addEventListener("keydown", () => {
   if ((event.key = "enter")) {
@@ -24,7 +24,7 @@ input.addEventListener("keydown", () => {
 function formatSearchQuery(query) {
   return query.replace(/\s+/g, "+");
 }
- */
+ 
 document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.querySelector('#search input');
     const searchResults = document.querySelector('.search-results');
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const resultItems = document.querySelectorAll('.search-result-item');
         const noResults = document.querySelector('.no-results');
         
-        let hasResults = false;
+        let hasResults = false;      // Flag to check if any results are found
         
         resultItems.forEach(item => {
             const title = item.querySelector('.search-result-title').textContent.toLowerCase();
@@ -57,10 +57,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 item.style.display = 'flex';
                 hasResults = true;
             } else {
-                item.style.display = 'none';
+                item.style.display = 'none'; 
             }
         });
         
         noResults.style.display = hasResults ? 'none' : 'block';
     });
-});
+}); */
+
+const bookNames = [
+  "The Silent Patient",
+  "Atomic Habits",
+  "The Psychology of Money",
+  "Rich Dad Poor Dad",
+  "The Subtle Art of NGAF",
+  "Everything is Fucked",
+  "2 States",
+  "Alchemist"
+];
+
+const searchinput = doucment.queryselector("#searchinput");
+ 
