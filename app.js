@@ -76,5 +76,14 @@ const bookNames = [
   "Alchemist"
 ];
 
-const searchinput = doucment.queryselector("#searchinput");
- 
+const searchinput = document.querySelector("#searchinput");
+
+searchinput.addEventListener("input", ()=>{
+  const item = searchinput.value.toLowerCase();
+
+  for(let i = 0; i<bookNames.length; i++){
+    if(bookNames[i].toLowerCase().includes(item)){
+      console.log(bookNames[i]);
+    }
+  }
+})
