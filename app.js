@@ -78,12 +78,80 @@ const bookNames = [
 
 const searchinput = document.querySelector("#searchinput");
 
-searchinput.addEventListener("input", ()=>{
-  const item = searchinput.value.toLowerCase();
-
-  for(let i = 0; i<bookNames.length; i++){
-    if(bookNames[i].toLowerCase().includes(item)){
-      console.log(bookNames[i]);
-    }
+// Add event listener to the "Buy Used Books" button
+document.addEventListener('DOMContentLoaded', function() {
+  const buyUsedBooksBtn = document.querySelector('.buy');
+  const sellBooksBtn = document.querySelector('.sell');
+  const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+  
+  // Buy Used Books button
+  if (buyUsedBooksBtn) {
+    buyUsedBooksBtn.addEventListener('click', function() {
+      alert('buy books functionality coming soon!');
+    });
   }
-})
+  
+  // Sell Books button
+  if (sellBooksBtn) {
+    sellBooksBtn.addEventListener('click', function() {
+      // This would link to a sell books page in the future
+      alert('Sell books functionality coming soon!');
+    });
+  }
+  
+  // Mobile menu toggle
+  if (mobileMenuBtn) {
+    mobileMenuBtn.addEventListener('click', function() {
+      const navMenu = document.querySelectorAll('#nav-menu');
+      
+      navMenu.forEach(item => {
+        if (item.style.display === 'block') {
+          item.style.display = 'none';
+        } else {
+          item.style.display = 'block';
+        }
+      });
+    });
+  }
+  
+  // Search functionality
+  
+  
+  // Add animation to trending books section
+  const bookCards = document.querySelectorAll('.book-card');
+  if (bookCards.length > 0) {
+    bookCards.forEach((card, index) => {
+      card.style.animationDelay = `${index * 0.1}s`;
+      card.classList.add('fade-in');
+      
+      // Add click event to navigate to book details
+      card.addEventListener('click', function() {
+        const bookTitle = card.querySelector('h3').textContent;
+        window.location.href = 'used-books.html?book=' + encodeURIComponent(bookTitle);
+      });
+    });
+  }
+  
+  // Newsletter subscription
+  const newsletterForm = document.querySelector('.newsletter-form');
+  if (newsletterForm) {
+    newsletterForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const emailInput = this.querySelector('input[type="email"]');
+      const email = emailInput.value.trim();
+      
+      if (email && isValidEmail(email)) {
+        alert('Thank you for subscribing to our newsletter!');
+        emailInput.value = '';
+      } else {
+        alert('Please enter a valid email address.');
+      }
+    });
+  }
+});
+
+// Validate email format
+function isValidEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
