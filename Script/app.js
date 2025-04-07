@@ -150,6 +150,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+
+
 // Validate email format
 function isValidEmail(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

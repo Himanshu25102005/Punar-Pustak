@@ -284,3 +284,10 @@ function isValidEmail(email) {
   return emailRegex.test(email);
 }
 
+const category = document.querySelector(".category-menu a");
+const book_card = document.querySelector(".book-card")
+category.addEventListener("click", ()=>{
+  if(category.dataset.category== "all"){
+      book_card.style.display = "flex";
+  }
+})

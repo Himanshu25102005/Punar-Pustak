@@ -1005,6 +1005,7 @@ main {
   flex-direction: column;
   position: relative;
   cursor: pointer;
+  display: none;
 }
 
 .book-card:hover {
