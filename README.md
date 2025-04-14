@@ -80,7 +80,7 @@ Feel free to reach out if you have any questions, suggestions, or just want to c
 
 - **GitHub**: [Your GitHub Profile](https://github.com/Himanshu25102005)
 - **Email**: himanshudusane12@gmail.com 
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/himanshu-dusane-5a8ab6274/)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/himanshu-dusane-5a8ab6274/)
 - **Instagram**: [@Instagram Handle](https://www.instagram.com/_.himanxhu_.1/)
 
 ## 📄 License
