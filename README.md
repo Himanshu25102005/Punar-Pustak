@@ -23,7 +23,7 @@ Punar-पुस्तक is a user-friendly online marketplace dedicated to conn
 ## 🎯 Goals
 
 - Create an accessible platform for book enthusiasts to exchange pre-owned books.
-- Promote sustainable reading practices and reduce paper waste
+- Promote sustainable reading practices and reduce paper waste.
 - Make literature more affordable for students and avid readers
 - Build a community of book lovers who value knowledge sharing
 - Support literacy by increasing access to affordable reading materials.
