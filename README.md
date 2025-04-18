@@ -70,7 +70,7 @@ Through the development of Punar-पुस्तक, I gained valuable experienc
 
 ## 🙏 Acknowledgements
 
-- Special thanks to all the open-source libraries and tools that made this project possible
+- Special thanks to all the open-source libraries and tools that made this project possible.
 - Gratitude to the web development community for their invaluable resources and tutorials.
 - Appreciation to friends and mentors who provided feedback during the development process.
 
