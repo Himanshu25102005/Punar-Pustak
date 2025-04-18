@@ -62,7 +62,7 @@ Through the development of Punar-पुस्तक, I gained valuable experienc
 
 - Creating responsive web designs that work across all device sizes.
 - Implementing modern UI/UX principles for intuitive user experiences.
-- Building search functionality and filtering systems
+- Building search functionality and filtering systems.
 - Designing user profiles and interaction systems.
 - Developing e-commerce features like product listings and checkout flows
 - Writing clean, maintainable HTML, CSS, and JavaScript code
