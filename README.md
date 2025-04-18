@@ -31,7 +31,7 @@ Punar-पुस्तक is a user-friendly online marketplace dedicated to conn
 ## 🛠️ Tech Stack
 
 - **Frontend**: HTML5, CSS3, JavaScript.
-- **Responsive Design**: Flexbox, CSS Grid, Media Queries
+- **Responsive Design**: Flexbox, CSS Grid, Media Queries.
 - **UI Components**: Custom CSS with modern design principles
 - **Version Control**: Git & GitHub
 - **Deployment**: GitHub Pages
