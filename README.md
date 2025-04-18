@@ -26,7 +26,7 @@ Punar-पुस्तक is a user-friendly online marketplace dedicated to conn
 - Promote sustainable reading practices and reduce paper waste
 - Make literature more affordable for students and avid readers
 - Build a community of book lovers who value knowledge sharing
-- Support literacy by increasing access to affordable reading materials
+- Support literacy by increasing access to affordable reading materials.
 
 ## 🛠️ Tech Stack
 
