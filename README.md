@@ -50,7 +50,7 @@ Punar-पुस्तक is a user-friendly online marketplace dedicated to conn
 
 3. **Open the project**:
    - Simply open `index.html` in your browser to view the website locally
-   - Or use a local development server like Live Server in VS Code
+   - Or use a local development server like Live Server in VS Code.
 
 4. **Make it your own**:
    - Customize the content, colors, and images to match your vision
